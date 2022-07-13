@@ -1,5 +1,10 @@
 #!/usr/bin/awk -f
 
+# Run export LC_NUMERIC="en_US.UTF-8" in terminal before executing the script 
+# or you'll get decimal separator wrong (, instead of .). Or add the line to
+# $ nano /home/antonio/.bashrc
+# that way it will always act that way.
+
 #==================================================================
 #-> NR variable will simply print the line numbers of all the lines of our target text 
 #file.(Rows)
